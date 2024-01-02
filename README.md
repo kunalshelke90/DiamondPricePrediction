@@ -19,3 +19,8 @@ git commit -m "this is my first commit"
 """
 git pull
 """
+# another way you can mention -e . in your requirement file and you can run
+
+```
+pip install -r requirements.txt
+```
