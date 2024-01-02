@@ -1,6 +1,6 @@
-#this is my end to end project
+# this is my end to end project
 
-#first initialize git 
+# first initialize git 
 
 """
 git init
@@ -14,4 +14,8 @@ git add .
 
 """
 git commit -m "this is my first commit"
+"""
+
+"""
+git pull
 """
