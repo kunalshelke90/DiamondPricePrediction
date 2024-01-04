@@ -9,6 +9,8 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
+sys.path.append("c:\\DS\\fsdsmendtoend")
+
 
 
 class DataIngestionConfig:
