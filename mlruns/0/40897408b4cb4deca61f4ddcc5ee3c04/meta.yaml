@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/DS/fsdsmendtoend/mlruns/0/40897408b4cb4deca61f4ddcc5ee3c04/artifacts
+end_time: 1704543039871
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40897408b4cb4deca61f4ddcc5ee3c04
+run_name: unique-rat-912
+run_uuid: 40897408b4cb4deca61f4ddcc5ee3c04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704543035965
+status: 3
+tags: []
+user_id: shelk
