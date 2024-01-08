@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/DS/fsdsmendtoend/mlruns/0/cf20ad38b5394d00a52cdf294956834d/artifacts
+end_time: 1704721044489
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf20ad38b5394d00a52cdf294956834d
+run_name: illustrious-kite-213
+run_uuid: cf20ad38b5394d00a52cdf294956834d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704721040858
+status: 3
+tags: []
+user_id: shelk

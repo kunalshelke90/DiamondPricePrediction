@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/DS/fsdsmendtoend/mlruns/0/52952731bca544ee9b99bb06404dba8c/artifacts
+end_time: 1704720989695
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 52952731bca544ee9b99bb06404dba8c
+run_name: orderly-wasp-247
+run_uuid: 52952731bca544ee9b99bb06404dba8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704720985881
+status: 3
+tags: []
+user_id: shelk

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/DS/fsdsmendtoend/mlruns/0/1d704b531b40455c91bbe1e4904cda85/artifacts
+end_time: 1704721015946
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1d704b531b40455c91bbe1e4904cda85
+run_name: awesome-mole-337
+run_uuid: 1d704b531b40455c91bbe1e4904cda85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704721011865
+status: 3
+tags: []
+user_id: shelk
