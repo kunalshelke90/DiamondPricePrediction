@@ -2,9 +2,9 @@ import os
 import sys
 #sys.path.append("c:\\DS\\fsdsmendtoend")
 import pandas as pd
-from src.DimondPricePrediction.exception import customexception
-from src.DimondPricePrediction.logger import logging
-from src.DimondPricePrediction.utils.utils import load_object
+from src.DiamondPricePrediction.exception import customexception
+from src.DiamondPricePrediction.logger import logging
+from src.DiamondPricePrediction.utils.utils import load_object
 
 
 class PredictPipeline:

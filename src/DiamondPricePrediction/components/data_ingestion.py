@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-from src.DimondPricePrediction.logger import logging
-from src.DimondPricePrediction.exception import customexception
+from src.DiamondPricePrediction.logger import logging
+from src.DiamondPricePrediction.exception import customexception
 import os
 import sys
 from sklearn.model_selection import train_test_split

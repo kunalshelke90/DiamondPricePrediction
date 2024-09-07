@@ -29,19 +29,20 @@ Target variable:
 # Installation
 
 1. Clone the repository:
-"""
+```
 git clone https://github.com/kunalshelke90/DiamondPricePrediction.git
-"""
-"""
+```
+```
 cd DiamondPricePrediction
-"""
+```
 2. Create a virtual environment and install dependencies:
-"""
+
+```
 bash init_setup.sh
-"""
+```
 3. Set up ".env" environment variables:
 
-"""
+```
 DAGSHUB_REPO_OWNER="owner_name"
 DAGSHUB_REPO_NAME="Repo_name"
 DAGSHUB_MLFLOW="True"
@@ -49,7 +50,7 @@ MLFLOW_REGISTRY_URI="https://dagshub.com/repo_owner/repo_name.mlflow"
 
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
-"""
+```
 ## Usage
 
 1. Start the Flask application:
@@ -95,13 +96,3 @@ Modify the HTML templates in the templates/ folder to match your preferred UI de
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-
-
-
-
-
-
-
-
-
-https://www.kaggle.com/competitions/playground-series-s3e8/data

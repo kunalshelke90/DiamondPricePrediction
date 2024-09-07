@@ -1,13 +1,13 @@
 import sys
 sys.path.append("c:\\DS\\fsdsmendtoend")
 
-from src.DimondPricePrediction.components.data_ingestion import DataIngestion
+from src.DiamondPricePrediction.components.data_ingestion import DataIngestion
 
-from src.DimondPricePrediction.components.data_transformation import DataTransformation
+from src.DiamondPricePrediction.components.data_transformation import DataTransformation
 
-from src.DimondPricePrediction.components.model_trainer import ModelTrainer
+from src.DiamondPricePrediction.components.model_trainer import ModelTrainer
 
-from src.DimondPricePrediction.components.model_evaluation import ModelEvaluation
+from src.DiamondPricePrediction.components.model_evaluation import ModelEvaluation
 
 obj=DataIngestion()
 
