@@ -5,7 +5,6 @@ from urllib.parse import urlparse
 import mlflow
 import mlflow.sklearn
 import numpy as np
-import pickle
 from src.DimondPricePrediction.utils.utils import load_object
 
 
