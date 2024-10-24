@@ -1,8 +1,7 @@
 # done by me
 test.py
-.dvcignore
-dvc.lock
-.dvc
+artifacts
+mlruns
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
