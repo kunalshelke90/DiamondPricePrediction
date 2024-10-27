@@ -1,6 +1,5 @@
 import os
 import sys
-#sys.path.append("c:\\DS\\fsdsmendtoend")
 import pandas as pd
 from src.DiamondPricePrediction.exception import customexception
 from src.DiamondPricePrediction.logger import logging
@@ -20,17 +19,11 @@ class PredictPipeline:
             model=load_object(model_path)
             
             scaled_data=preprocessor.transform(features)
-            
             pred=model.predict(scaled_data)
             
             return pred
-            
-            
-        
         except Exception as e:
             raise customexception(e,sys)
-    
-    
     
 class CustomData:
     def __init__(self,
@@ -53,7 +46,6 @@ class CustomData:
         self.cut = cut
         self.color = color
         self.clarity = clarity
-            
                 
     def get_data_as_dataframe(self):
             try:
