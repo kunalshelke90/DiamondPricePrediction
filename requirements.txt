@@ -7,4 +7,5 @@ Flask
 mlflow
 dvc
 xgboost
--e .  #to install local package
+
+-e .
