@@ -16,20 +16,17 @@ list_of_files=[
     f"src/{package_name}/logger.py",
     f"src/{package_name}/exception.py",
     f"src/{package_name}/utils/__init__.py",
-    "notebooks/research.ipynb",
+    "notebooaks/research.ipynb",
     "notebooks/data/.gitkeep",
     "requirements.txt",
     "setup.py",
     "init_setup.sh",
-]
-
+    "REAdME.md "]
 
 # here will create a directory
-
 for filepath in list_of_files:
     filepath=Path(filepath)
     filedir,filename=os.path.split(filepath)
-    
     """ how exist_ok works:if "directory" already exists, 
     os.makedirs() will not raise an error, and it will do nothing. 
     If "my_directory" doesn't exist, it will create the directory.
@@ -42,7 +39,3 @@ for filepath in list_of_files:
             pass
     else:
         print("file already exists")
-
-# here will use the file handling
-
-
