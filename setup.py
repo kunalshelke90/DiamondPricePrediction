@@ -14,10 +14,8 @@ def get_requirements(file_path:str)->List[str]:
 
     return requirements
 
-setup(
-    name='DiamondPricePrediction',
-    version='0.0.1',
-    author='kunal shelke',
-    author_email='shelkekunal90@gmail.com',
-    packages=find_packages()
-)
+setup(name='DiamondPricePrediction',
+      version='0.0.1',
+      author='kunal shelke',
+      author_email='shelkekunal90@gmail.com',
+      packages=find_packages())
