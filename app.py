@@ -1,5 +1,7 @@
 from src.DiamondPricePrediction.pipelines.prediction_pipeline import CustomData,PredictPipeline
 from flask import Flask,request,render_template
+import locale
+locale.setlocale(locale.LC_ALL, 'en_IN')
 
 app=Flask(__name__)
 
@@ -29,9 +31,10 @@ def predict_datapoint():
         predict_pipeline=PredictPipeline()
         
         pred=predict_pipeline.predict(final_data)
-        result=round(pred[0],2)
-        
-        return render_template("result.html",final_result=result)
+        result=pred[0]
+        number=round(result*83.5,2)
+        price=locale.format_string("%0.2f", number, grouping=True)
+        return render_template("result.html",final_result=price)
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=8080,debug=True)
