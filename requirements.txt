@@ -7,5 +7,5 @@ Flask
 mlflow
 dvc
 xgboost
-
+python-dotenv
 -e .
