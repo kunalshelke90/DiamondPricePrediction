@@ -1,8 +1,16 @@
 from src.DiamondPricePrediction.pipelines.prediction_pipeline import CustomData,PredictPipeline
 from flask import Flask,request,render_template
 import locale
-locale.setlocale(locale.LC_ALL, 'en_IN')
+# locale.setlocale(locale.LC_ALL,'en_IN.UTF-8')
+# print("Available locales:", locale.locale_alias)  # List available locales
+# print("Current locale before setting:", locale.getlocale())
 
+try:
+    locale.setlocale(locale.LC_ALL, 'en_IN.UTF-8')
+except locale.Error as e:
+    print("Error setting locale:", e)
+    
+print
 app=Flask(__name__)
 
 @app.route('/')
