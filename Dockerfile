@@ -7,9 +7,9 @@ RUN apt-get update -y && apt-get install -y \
 # Create the locale definition file for en_IN.UTF-8
 RUN echo 'en_IN.UTF-8 UTF-8' >> /etc/locale.gen && locale-gen
 # Set environment variables for locale
-ENV LANG en_IN.UTF-8
-ENV LANGUAGE en_IN:en
-ENV LC_ALL en_IN.UTF-8
+ENV LANG=en_IN.UTF-8
+ENV LANGUAGE=en_IN:en
+ENV LC_ALL=en_IN.UTF-8
 # Upgrade pip to the latest version and set a longer timeout
 RUN pip install --upgrade pip && \
     pip config set global.timeout 1000
